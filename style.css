@@ -1,0 +1,128 @@
+body {
+  background-image: url(https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/171481.jpg);
+}
+.container {
+  display: flex;
+  align-content: space-between;
+}
+#inside {
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+p, ul {
+  margin-left: 8px
+}
+.imgreseau {
+  width: 30px;
+  height: 30px;
+}
+#identite {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-right: 3px;
+  margin-top: 3px;
+  border-radius: 30px;
+}
+#inside2:nth-child(1) {
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+#inside3:nth-child(2) {
+  flex: 1;
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+#inside4:nth-child(1){
+  flex: 1;
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+#inside5 {
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+progress::-moz-progress-bar {
+  background-color: #49bfb6;
+  border-radius: 30px;
+}
+progress {
+  margin-left: 15px;
+  border-radius: 30px;
+}
+@media all and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 860px) {
+  progress {
+    display: none;
+  }
+}
+.inside5SansBarres {
+  display: none;
+}
+@media all and (max-width: 860px) {
+  .inside5SansBarres {
+    display: block;
+  }
+}
+.yolo {
+  display:block;
+}
+@media all and (max-width: 860px) {
+  .yolo {
+    display: none;
+  }
+}
+#footer {
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  text-align: center;
+}
+footer {
+  font-family: 'URW Gothic L', sans-serif;
+  font-size: 20px;
+  color: #49bfb6;
+  background-color: rgba(53,71,79,0.8);
+  border: 2px #69ccf6 groove;
+  border-radius: 30px;
+  margin-top: 3px;
+}
